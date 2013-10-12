@@ -6,7 +6,7 @@
  * Written by Igor Marchenko (HP Vertica) - igor.a.marchenko@hp.com
  *****************************/
 -- Installation script: defined the shared library and the appropriate entry points
-\set libfile '\''`pwd`'/lib/geoState.R\''
-CREATE LIBRARY geostatelib AS :libfile LANGUAGE 'R';
+\set libfile '\''`pwd`'/lib/GeoState.R\''
+CREATE LIBRARY GeoStateLib AS :libfile LANGUAGE 'R';
 
-CREATE FUNCTION geostate AS LANGUAGE 'R' NAME 'GeoStateFactory' LIBRARY geostatelib;
+CREATE FUNCTION geostate AS LANGUAGE 'R' NAME 'GeoStateFactory' LIBRARY GeoStateLib;
