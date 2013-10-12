@@ -32,8 +32,6 @@ SELECT geostate(longitude, latitude);
 INPUT: NUMERIC values for longitude, latitude
 RETURN: VARCHAR representing the US state or NULL if coordinates are outside USA border
 
-Here is a sample run with the test data provided in the package.
-
 For example,
 vsql=> SELECT geostate(-71.145948, 42.394590);
    geostate    
