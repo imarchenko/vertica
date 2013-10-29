@@ -34,8 +34,8 @@ RETURN: VARCHAR representing the US state or NULL if coordinates are outside USA
 
 For example,
 vsql=> SELECT geostate(-71.145948, 42.394590);
-   geostate    
----------------
- massachusetts
+ geostate 
+----------
+ MA
 (1 row)
  

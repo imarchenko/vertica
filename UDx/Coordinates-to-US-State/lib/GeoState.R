@@ -24,7 +24,7 @@ GeoState <- function(coords) {
 	index <-over(pointSP, statesSP)
 
 	stateNames <- sapply(statesSP@polygons, function(x) x@ID)
-	stateNames[index]
+	state.abb[grep(sub(":.*", "", stateNames[index]), state.name, ignore.case = TRUE)]
 }
 
 GeoStateFactory <- function() {
