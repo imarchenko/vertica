@@ -1,10 +1,10 @@
 /*****************************
  * Vertica Analytic Database
  *
- * Longitude and Latitude to US State Conversion UDSF
+ * Perform fuzzy string matching with HP Vertica.
  *
  * Written by Igor Marchenko - imarchen@gmail.com
  *****************************/
 
 -- Uninstallation script
-DROP LIBRARY GeoStateLib CASCADE;
+DROP LIBRARY FuzzyMatch CASCADE;

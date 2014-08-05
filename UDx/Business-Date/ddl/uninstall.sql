@@ -1,10 +1,10 @@
 /*****************************
  * Vertica Analytic Database
  *
- * Longitude and Latitude to US State Conversion UDSF
+ * Business Date UDSF
  *
  * Written by Igor Marchenko - imarchen@gmail.com
  *****************************/
 
 -- Uninstallation script
-DROP LIBRARY GeoStateLib CASCADE;
+DROP LIBRARY BusinessDateLib CASCADE;

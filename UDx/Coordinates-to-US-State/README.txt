@@ -4,7 +4,7 @@ INTRODUCTION
 
 This package converts geolocation coordinates (longitude, latitude) into a United States state.
 
-Written by Igor Marchenko (HP Vertica) - igor.a.marchenko@hp.com
+Written by Igor Marchenko - imarchen@gmail.com
 
 -------------------------------
 INSTALLING / UNINSTALLING
