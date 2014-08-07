@@ -1,5 +1,5 @@
 /* IsDate User Defined Scalar Function
-   Written by Igor Marchenko (igor.a.marchenko@hp.com)
+   Written by Igor Marchenko (imarchen@gmail.com)
    August 6, 2014
 
    To compile (on any Vertica node):
@@ -49,7 +49,7 @@ public:
     {
         do {
             // Grab string data from Vertica and try converting to DateADT type
-            DateADT d = dateIn(arg_reader.getStringRef(0).data(), 0);
+            DateADT d = dateIn(arg_reader.getStringRef(0).str().c_str(), 0);
 
             res_writer.setBool(d != vint_null);
             res_writer.next();
