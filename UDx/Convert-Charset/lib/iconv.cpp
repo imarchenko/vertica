@@ -43,7 +43,7 @@ class IConv : public ScalarFunction
         do {
 			// Define default charset encoding formats
 			string encodeToCharset = "UTF-8//IGNORE";
-			string encodeFromCharset = "UTF-8";
+			string encodeFromCharset = "WINDOWS-1252";
 			
 			ParamReader paramReader = srvInterface.getParamReader();
 			if (paramReader.containsParameter("charset"))
