@@ -1,4 +1,4 @@
 vertica
 =======
 
-HP Vertica Related Projects
+Personal Vertica Related Projects
